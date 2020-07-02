@@ -1,0 +1,5 @@
+  Company    Model  Screen Diagonal   Bluetooth  Keys     Price       System
+ 1) Asus    QXB2555      23,4           Yes      120    100000,00      Linux
+ 2) Lenovo  3764P        17,0            No       34     29999,00    Windows
+ 3) Samsung Z555F9       1,0              1       11        11,00          1
+ 4) Apple   MacBook      31,2           Yes       98   1000000,00      MacOS

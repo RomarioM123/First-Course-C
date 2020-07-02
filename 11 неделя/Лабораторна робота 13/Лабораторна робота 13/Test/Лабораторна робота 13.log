@@ -1,0 +1,5 @@
+﻿  functions.cpp
+  test.cpp
+C:\Users\romar\Desktop\Универ\Программирование\Лабораторна робота 13\Лабораторна робота 13\functions.cpp(48,15): warning C4244:  инициализация: преобразование "int" в "float", возможна потеря данных
+MSVCRT.lib(exe_main.obj) : error LNK2001: неразрешенный внешний символ "_main"
+C:\Users\romar\Desktop\Универ\Программирование\Лабораторна робота 13\Test\Лабораторна робота 13.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

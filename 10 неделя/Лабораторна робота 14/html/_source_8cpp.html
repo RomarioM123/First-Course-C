@@ -1,0 +1,827 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Файл Source.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.16 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Пошук');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Класи</a> &#124;
+<a href="#define-members">Макровизначення</a> &#124;
+<a href="#func-members">Функції</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл Source.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;crtdbg.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;locale.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Діаграма включених заголовочних файлів для Source.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8cpp__incl.png" border="0" usemap="#_source_8cpp" alt=""/></div>
+<map name="_source_8cpp" id="_source_8cpp">
+<area shape="rect" title=" " alt="" coords="187,5,290,35"/>
+<area shape="rect" title=" " alt="" coords="5,83,77,112"/>
+<area shape="rect" title=" " alt="" coords="102,83,181,112"/>
+<area shape="rect" title=" " alt="" coords="205,83,273,112"/>
+<area shape="rect" title=" " alt="" coords="297,83,367,112"/>
+<area shape="rect" title=" " alt="" coords="392,83,467,112"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Класи</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_notebook.html">Notebook</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Макровизначення</h2></td></tr>
+<tr class="memitem:af08ec37a8c99d747fb60fa15bc28678b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#af08ec37a8c99d747fb60fa15bc28678b">_CRT_SECURE_NO_WARNINGS</a></td></tr>
+<tr class="separator:af08ec37a8c99d747fb60fa15bc28678b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4905dd6e51c94ac94ec1c4118a20656a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a4905dd6e51c94ac94ec1c4118a20656a">CRTDBG_MAP_ALLOC</a></td></tr>
+<tr class="separator:a4905dd6e51c94ac94ec1c4118a20656a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae506a7a05c7311380f9160324fa2c047"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#ae506a7a05c7311380f9160324fa2c047">DEBUG_NEW</a>&#160;&#160;&#160;<a class="el" href="_source_8cpp.html#a1ac41480eb2e4aadd52252ee550b630a">new</a>(_NORMAL_BLOCK, FILE, __LINE)</td></tr>
+<tr class="separator:ae506a7a05c7311380f9160324fa2c047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac41480eb2e4aadd52252ee550b630a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a1ac41480eb2e4aadd52252ee550b630a">new</a>&#160;&#160;&#160;<a class="el" href="_source_8cpp.html#ae506a7a05c7311380f9160324fa2c047">DEBUG_NEW</a></td></tr>
+<tr class="separator:a1ac41480eb2e4aadd52252ee550b630a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функції</h2></td></tr>
+<tr class="memitem:aa046cd2e01c2609e94fb1f351ce471b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#aa046cd2e01c2609e94fb1f351ce471b2">Initialization</a> ()</td></tr>
+<tr class="separator:aa046cd2e01c2609e94fb1f351ce471b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a8b8b63be2092504647a99c8271ceb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a81a8b8b63be2092504647a99c8271ceb">Menu</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:a81a8b8b63be2092504647a99c8271ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5364e47b9c4d4c2212749673de6cb1e0"><td class="memItemLeft" align="right" valign="top">FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a5364e47b9c4d4c2212749673de6cb1e0">ReadFile</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:a5364e47b9c4d4c2212749673de6cb1e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90fa003cef36f888f7b3d15f9f30a82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#aa90fa003cef36f888f7b3d15f9f30a82">CreateSpisok</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *, FILE *)</td></tr>
+<tr class="separator:aa90fa003cef36f888f7b3d15f9f30a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a140ab9e840a8152fe5e0b43052a9c298"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a140ab9e840a8152fe5e0b43052a9c298">OutputScreen</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:a140ab9e840a8152fe5e0b43052a9c298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c42e9a2571e794c75acfd2bc85e5ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a46c42e9a2571e794c75acfd2bc85e5ec">DeleteNotebook</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:a46c42e9a2571e794c75acfd2bc85e5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39969599d67c252f5705801ff3f1df4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a39969599d67c252f5705801ff3f1df4c">AverageScreen</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:a39969599d67c252f5705801ff3f1df4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a126bb462fe7f281ceca93eab4e99ecdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a126bb462fe7f281ceca93eab4e99ecdd">SortScreen</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:a126bb462fe7f281ceca93eab4e99ecdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac800f16c059bccb254bf9f5c20f48874"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#ac800f16c059bccb254bf9f5c20f48874">OutputFile</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *, FILE *)</td></tr>
+<tr class="separator:ac800f16c059bccb254bf9f5c20f48874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0604e2f201c208ed9feaae635ebfea81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a0604e2f201c208ed9feaae635ebfea81">NewNotebook</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:a0604e2f201c208ed9feaae635ebfea81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa23bf9dae9e2bf205eaa7516d194dd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#afa23bf9dae9e2bf205eaa7516d194dd6">NewStroka</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:afa23bf9dae9e2bf205eaa7516d194dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9f843aa66c0363b4e678b8c026141f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#ad9f843aa66c0363b4e678b8c026141f9">Size</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:ad9f843aa66c0363b4e678b8c026141f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b8a86caac6dfefd2783c3bec960c1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a87b8a86caac6dfefd2783c3bec960c1b">OutputFileBinary</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:a87b8a86caac6dfefd2783c3bec960c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dca21d65b410565868e61f43ab0c4ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a9dca21d65b410565868e61f43ab0c4ae">InputFileBinary</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:a9dca21d65b410565868e61f43ab0c4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2de651c1b5ccb8cfff1c570e9150e368"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a2de651c1b5ccb8cfff1c570e9150e368">FreeSpisok</a> (<a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *)</td></tr>
+<tr class="separator:a2de651c1b5ccb8cfff1c570e9150e368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Опис макровизначень</h2>
+<a id="af08ec37a8c99d747fb60fa15bc28678b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08ec37a8c99d747fb60fa15bc28678b">&#9670;&nbsp;</a></span>_CRT_SECURE_NO_WARNINGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _CRT_SECURE_NO_WARNINGS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4905dd6e51c94ac94ec1c4118a20656a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4905dd6e51c94ac94ec1c4118a20656a">&#9670;&nbsp;</a></span>CRTDBG_MAP_ALLOC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CRTDBG_MAP_ALLOC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae506a7a05c7311380f9160324fa2c047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae506a7a05c7311380f9160324fa2c047">&#9670;&nbsp;</a></span>DEBUG_NEW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEBUG_NEW&#160;&#160;&#160;<a class="el" href="_source_8cpp.html#a1ac41480eb2e4aadd52252ee550b630a">new</a>(_NORMAL_BLOCK, FILE, __LINE)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ac41480eb2e4aadd52252ee550b630a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac41480eb2e4aadd52252ee550b630a">&#9670;&nbsp;</a></span>new</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define new&#160;&#160;&#160;<a class="el" href="_source_8cpp.html#ae506a7a05c7311380f9160324fa2c047">DEBUG_NEW</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Опис функцій</h2>
+<a id="a39969599d67c252f5705801ff3f1df4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39969599d67c252f5705801ff3f1df4c">&#9670;&nbsp;</a></span>AverageScreen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AverageScreen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення покажчика на перший елемент даних.</li>
+<li>Оголошення змінної суми діагоналей.</li>
+<li>Оголошення змінної кількості ноутбуків.</li>
+<li>Цикл, який працює до кінця списку.</li>
+<li>Суммуємо диагоналі.</li>
+<li>Знаходимо кількість ноутбуків.</li>
+<li>Переміщуємо покажчик на наступний елемент.</li>
+<li>Знаходимо середню диагональ.</li>
+<li>Виведення середньої диагоналі у консоль.</li>
+</ul>
+
+</div>
+</div>
+<a id="aa90fa003cef36f888f7b3d15f9f30a82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa90fa003cef36f888f7b3d15f9f30a82">&#9670;&nbsp;</a></span>CreateSpisok()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CreateSpisok </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>text</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення покажчика.</li>
+<li>Цикл, який працює поки не буде кінець файлу.</li>
+<li>Виділення пам'яті на структуру <a class="el" href="struct_notebook.html">Notebook</a>.</li>
+<li>Переміщення покажчика на наступні дані.</li>
+<li>Запис даних у структуру.</li>
+<li>Закриття файлу.</li>
+</ul>
+
+</div>
+</div>
+<a id="a46c42e9a2571e794c75acfd2bc85e5ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c42e9a2571e794c75acfd2bc85e5ec">&#9670;&nbsp;</a></span>DeleteNotebook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DeleteNotebook </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення покажчика на перший елемент даних.</li>
+<li>Оголошення покажчика на другий елемент даних.</li>
+<li>Виклик функції знаходження розміру структури.</li>
+<li>Введення змінної, яка вказує, який ноутбук потрібно видалити.</li>
+</ul>
+<p>Якщо список пустий.</p>
+<ul>
+<li>Завершення роботи функції.</li>
+</ul>
+<p>Якщо користувач вибрав номер, який не існує.</p>
+<ul>
+<li>Завершення роботи програми.</li>
+</ul>
+<p>Якщо користувач вибрав перший ноутбук.</p>
+<p>Переміщення покажчиків.</p>
+<p>Виведення даних у консоль.</p>
+<p>Переміщення покажчика головного елемента на другий елемент.</p>
+<p>Видалення одного елемента.</p>
+<ul>
+<li>Завершення роботи програми.</li>
+</ul>
+<p>Якщо користувач вибрав останній ноутбук.</p>
+<ul>
+<li>Переміщення покажчиків.</li>
+<li>Цикл, який переміщує покажчик до потрібного місця.</li>
+<li>Переміщення покажчика на елемент, який треба видалити.</li>
+</ul>
+<p>Виведення даних у консоль.</p>
+<p>Видалення елемента.</p>
+<ul>
+<li>Завершення роботи програми.</li>
+</ul>
+<p>Якщо користувач вибрав списки у середині.</p>
+<ul>
+<li>Переміщення покажчика на перший елемент.</li>
+<li>Цикл, який переміщує покажчик до потрібного місця.</li>
+<li>Переміщення другого покажчика на елемент, який треба видалити.</li>
+<li>Переміщення третього покажчика на наступний елемент.</li>
+</ul>
+<p>Виведення даних у консоль.</p>
+<p>Видалення елемента.</p>
+<ul>
+<li>Завершення роботи програми.</li>
+</ul>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8cpp_a46c42e9a2571e794c75acfd2bc85e5ec_cgraph.png" border="0" usemap="#_source_8cpp_a46c42e9a2571e794c75acfd2bc85e5ec_cgraph" alt=""/></div>
+<map name="_source_8cpp_a46c42e9a2571e794c75acfd2bc85e5ec_cgraph" id="_source_8cpp_a46c42e9a2571e794c75acfd2bc85e5ec_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,141,35"/>
+<area shape="rect" href="_source_8cpp.html#ad9f843aa66c0363b4e678b8c026141f9" title=" " alt="" coords="189,5,243,35"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2de651c1b5ccb8cfff1c570e9150e368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de651c1b5ccb8cfff1c570e9150e368">&#9670;&nbsp;</a></span>FreeSpisok()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FreeSpisok </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення покажчика.</li>
+<li>Цикл, який працює до кінця списку.</li>
+<li>Переміщуємо покажчик.</li>
+<li>Очищуємо елемент.</li>
+</ul>
+
+</div>
+</div>
+<a id="aa046cd2e01c2609e94fb1f351ce471b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa046cd2e01c2609e94fb1f351ce471b2">&#9670;&nbsp;</a></span>Initialization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> * Initialization </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Виділення пам'яті на наступний елемент списка.</li>
+<li>Покажчику на наступний елемент списку присвоюємо NULL.</li>
+<li>Кінець роботи функції.</li>
+</ul>
+
+</div>
+</div>
+<a id="a9dca21d65b410565868e61f43ab0c4ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dca21d65b410565868e61f43ab0c4ae">&#9670;&nbsp;</a></span>InputFileBinary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InputFileBinary </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення покажчика на перший елемент списку.</li>
+<li>Відкриття бінарного файлу.</li>
+<li>Перевірка на існування файлу.</li>
+<li>Цикл, який записує дані у файлу.</li>
+<li>Запис даних у список.</li>
+<li>Переміщення покажчика на наступний елемент.</li>
+<li>Закриття файлу.</li>
+</ul>
+
+</div>
+</div>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Русіфікація консолі.</li>
+<li>Виклик функції ініціалізації структури <a class="el" href="struct_notebook.html">Notebook</a>.</li>
+<li>Виклик функції читання з файлу.</li>
+<li>Виклик функції виклику меню.</li>
+<li>Завершення роботи програми.</li>
+</ul>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#_source_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
+<map name="_source_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="_source_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,245,61,275"/>
+<area shape="rect" href="_source_8cpp.html#aa046cd2e01c2609e94fb1f351ce471b2" title=" " alt="" coords="109,192,212,221"/>
+<area shape="rect" href="_source_8cpp.html#a81a8b8b63be2092504647a99c8271ceb" title=" " alt="" coords="131,245,191,275"/>
+<area shape="rect" href="_source_8cpp.html#a5364e47b9c4d4c2212749673de6cb1e0" title=" " alt="" coords="117,379,204,408"/>
+<area shape="rect" href="_source_8cpp.html#a39969599d67c252f5705801ff3f1df4c" title=" " alt="" coords="263,5,394,35"/>
+<area shape="rect" href="_source_8cpp.html#a46c42e9a2571e794c75acfd2bc85e5ec" title=" " alt="" coords="261,59,397,88"/>
+<area shape="rect" href="_source_8cpp.html#a2de651c1b5ccb8cfff1c570e9150e368" title=" " alt="" coords="277,112,381,141"/>
+<area shape="rect" href="_source_8cpp.html#a9dca21d65b410565868e61f43ab0c4ae" title=" " alt="" coords="267,165,391,195"/>
+<area shape="rect" href="_source_8cpp.html#a0604e2f201c208ed9feaae635ebfea81" title=" " alt="" coords="268,219,389,248"/>
+<area shape="rect" href="_source_8cpp.html#ac800f16c059bccb254bf9f5c20f48874" title=" " alt="" coords="282,272,375,301"/>
+<area shape="rect" href="_source_8cpp.html#a87b8a86caac6dfefd2783c3bec960c1b" title=" " alt="" coords="260,325,397,355"/>
+<area shape="rect" href="_source_8cpp.html#a140ab9e840a8152fe5e0b43052a9c298" title=" " alt="" coords="270,379,387,408"/>
+<area shape="rect" href="_source_8cpp.html#a126bb462fe7f281ceca93eab4e99ecdd" title=" " alt="" coords="278,432,379,461"/>
+<area shape="rect" href="_source_8cpp.html#ad9f843aa66c0363b4e678b8c026141f9" title=" " alt="" coords="468,112,521,141"/>
+<area shape="rect" href="_source_8cpp.html#afa23bf9dae9e2bf205eaa7516d194dd6" title=" " alt="" coords="445,219,544,248"/>
+<area shape="rect" href="_source_8cpp.html#aa90fa003cef36f888f7b3d15f9f30a82" title=" " alt="" coords="269,485,388,515"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a81a8b8b63be2092504647a99c8271ceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81a8b8b63be2092504647a99c8271ceb">&#9670;&nbsp;</a></span>Menu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Menu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>start</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення змінних вибору дій користувача.</li>
+<li>Вибор дії користувачем.</li>
+</ul>
+<p>Якщо у структурі нема елементів:</p>
+<ul>
+<li>Введення дії користувачем.</li>
+<li>Користувач вибрав закінчення програми:</li>
+<li>Закінчення роботи програми.</li>
+<li>Користувач вибрав додавання нових елементів:</li>
+<li>Виклик функції додавання нового ноутбука у список.</li>
+<li>Виклик функції меню.</li>
+<li>Користувач написав неправильний символ:</li>
+<li>Виклик функції меню.</li>
+</ul>
+<p>Якщо користувач вибрав виведення списку у консоль:</p>
+<ul>
+<li>Виклик функції виведення списку у консоль.</li>
+</ul>
+<p>Якщо користувач вибрав збереження списку у файл:</p>
+<ul>
+<li>Відкриття файлу.</li>
+<li>Виклик функції збереження списку у файл.</li>
+</ul>
+<p>Якщо користувач вибрав видалення одного елементу зі списка:</p>
+<ul>
+<li>Виклик функції видалення одного елементу зі списка.</li>
+</ul>
+<p>Якщо користувач вибрав знаходження середньої диагоналі:</p>
+<ul>
+<li>Виклик функції знаходження середньої диагоналі.</li>
+</ul>
+<p>Якщо користувач вибрав сортування списку:</p>
+<ul>
+<li>Виклик функції сортування списку.</li>
+</ul>
+<p>Якщо користувач вибрав додавання нового елементу:</p>
+<ul>
+<li>Виклик функції додавання нового елементу.</li>
+</ul>
+<p>Якщо користувач вибрав збереження списку у бінарний файл:</p>
+<ul>
+<li>Виклик функції збереження списку у бінарний файл.</li>
+</ul>
+<p>Якщо користувач вибрав запис з бінарного файлу у список:</p>
+<ul>
+<li>Виклик функції запису з бінарного файлу у список.</li>
+</ul>
+<p>Якщо користувач вибрав завершення программи:</p>
+<ul>
+<li>Виклик функції очищення списку.</li>
+<li>Перевірка на існування витоків пам'яті.</li>
+</ul>
+<p>Якщо користувач вибрав неправильний символ:</p>
+<ul>
+<li>Виклик функції меню.</li>
+</ul>
+<p>Виклик функції меню.</p>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8cpp_a81a8b8b63be2092504647a99c8271ceb_cgraph.png" border="0" usemap="#_source_8cpp_a81a8b8b63be2092504647a99c8271ceb_cgraph" alt=""/></div>
+<map name="_source_8cpp_a81a8b8b63be2092504647a99c8271ceb_cgraph" id="_source_8cpp_a81a8b8b63be2092504647a99c8271ceb_cgraph">
+<area shape="rect" title=" " alt="" coords="5,219,65,248"/>
+<area shape="rect" href="_source_8cpp.html#a39969599d67c252f5705801ff3f1df4c" title=" " alt="" coords="117,5,247,35"/>
+<area shape="rect" href="_source_8cpp.html#a46c42e9a2571e794c75acfd2bc85e5ec" title=" " alt="" coords="114,59,250,88"/>
+<area shape="rect" href="_source_8cpp.html#a2de651c1b5ccb8cfff1c570e9150e368" title=" " alt="" coords="130,112,234,141"/>
+<area shape="rect" href="_source_8cpp.html#a9dca21d65b410565868e61f43ab0c4ae" title=" " alt="" coords="120,165,244,195"/>
+<area shape="rect" href="_source_8cpp.html#a0604e2f201c208ed9feaae635ebfea81" title=" " alt="" coords="121,219,243,248"/>
+<area shape="rect" href="_source_8cpp.html#ac800f16c059bccb254bf9f5c20f48874" title=" " alt="" coords="135,272,229,301"/>
+<area shape="rect" href="_source_8cpp.html#a87b8a86caac6dfefd2783c3bec960c1b" title=" " alt="" coords="113,325,251,355"/>
+<area shape="rect" href="_source_8cpp.html#a140ab9e840a8152fe5e0b43052a9c298" title=" " alt="" coords="123,379,241,408"/>
+<area shape="rect" href="_source_8cpp.html#a126bb462fe7f281ceca93eab4e99ecdd" title=" " alt="" coords="131,432,233,461"/>
+<area shape="rect" href="_source_8cpp.html#ad9f843aa66c0363b4e678b8c026141f9" title=" " alt="" coords="321,112,375,141"/>
+<area shape="rect" href="_source_8cpp.html#afa23bf9dae9e2bf205eaa7516d194dd6" title=" " alt="" coords="299,219,397,248"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0604e2f201c208ed9feaae635ebfea81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0604e2f201c208ed9feaae635ebfea81">&#9670;&nbsp;</a></span>NewNotebook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NewNotebook </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошуємо змінну вибору місця вставлення ноутбуку.</li>
+<li>Виклик функції знаходження розміру списку.</li>
+<li>Виділення пам'яті на новий елемент списку.</li>
+<li>Виклик функції запису нового ноутбуку.</li>
+</ul>
+<p>Якщо список пуст:</p>
+<ul>
+<li>Ставимо покажчик головного елементу на новий елемент.</li>
+<li>Закінчення роботи функції.</li>
+<li>Вибір місця, куди потрібно записати ноутбук.</li>
+<li>Оголошуємо покажчик на перший елемент списку.</li>
+<li>Оголошуємо покажчик на другий елемент списку.</li>
+</ul>
+<p>Якщо треба вставити на перше місце:</p>
+<ul>
+<li>Ставимо покажчик нового елементу на перший елемент.</li>
+<li>Ставимо покажчик головного елементу на новий елемент.</li>
+<li>Закінчення роботи функції.</li>
+<li>Якщо у списку 1 елемент:</li>
+<li>Ставимо покажчик нового елементу на другий елемент.</li>
+<li>Ставимо покажчик першого елементу на новий елемент.</li>
+<li>Закінчення роботи функції.</li>
+</ul>
+<p>Якщо треба записати у кінець списку:</p>
+<ul>
+<li>Цикл, який працює до кінця списку</li>
+<li>Переміщуємо покажчики</li>
+<li>Ставимо покажчик останнього елементу на новий елемент.</li>
+<li>Закінчення роботи функції.</li>
+</ul>
+<p>Якщо треба записати у середину списку:</p>
+<ul>
+<li>Цикл, який знаходить місце, куди потрібно записати ноутбук</li>
+<li>Переміщуємо покажчики:</li>
+</ul>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8cpp_a0604e2f201c208ed9feaae635ebfea81_cgraph.png" border="0" usemap="#_source_8cpp_a0604e2f201c208ed9feaae635ebfea81_cgraph" alt=""/></div>
+<map name="_source_8cpp_a0604e2f201c208ed9feaae635ebfea81_cgraph" id="_source_8cpp_a0604e2f201c208ed9feaae635ebfea81_cgraph">
+<area shape="rect" title=" " alt="" coords="5,32,127,61"/>
+<area shape="rect" href="_source_8cpp.html#afa23bf9dae9e2bf205eaa7516d194dd6" title=" " alt="" coords="175,5,273,35"/>
+<area shape="rect" href="_source_8cpp.html#ad9f843aa66c0363b4e678b8c026141f9" title=" " alt="" coords="197,59,251,88"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afa23bf9dae9e2bf205eaa7516d194dd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa23bf9dae9e2bf205eaa7516d194dd6">&#9670;&nbsp;</a></span>NewStroka()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> * NewStroka </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Запис нових даних з консолі</li>
+<li>Ставимо покажчик на NULL.</li>
+<li>Повертаємо новий елемент для запису</li>
+</ul>
+
+</div>
+</div>
+<a id="ac800f16c059bccb254bf9f5c20f48874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac800f16c059bccb254bf9f5c20f48874">&#9670;&nbsp;</a></span>OutputFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutputFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>text</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення покажчика на перший елемент.</li>
+<li>Оголошуємо змінну нумерації списку.</li>
+<li>Цикл, який працює до кінця списку.</li>
+<li>Виведення елементів у файл.</li>
+<li>Переміщення покажчина на наступний елемент.</li>
+<li>Збільшуємо змінну нумерації списку.</li>
+<li>Закриття файлу.</li>
+</ul>
+
+</div>
+</div>
+<a id="a87b8a86caac6dfefd2783c3bec960c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b8a86caac6dfefd2783c3bec960c1b">&#9670;&nbsp;</a></span>OutputFileBinary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutputFileBinary </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення покажчика на перший елемент списку.</li>
+<li>Відкриття бінарного файлу.</li>
+<li>Цикл, який записує дані у бінарний файл.</li>
+<li>Запис у бінарний файл.</li>
+<li>Переміщення покажчика на наступний елемент.</li>
+<li>Закриття бінарного файлу.</li>
+</ul>
+
+</div>
+</div>
+<a id="a140ab9e840a8152fe5e0b43052a9c298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a140ab9e840a8152fe5e0b43052a9c298">&#9670;&nbsp;</a></span>OutputScreen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutputScreen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення покажчика.</li>
+<li>Оголошуємо змінну нумерації списку.</li>
+<li>Цикл, який працює поки не буде кінець списку.</li>
+<li>Виведення даних у консоль.</li>
+<li>Переміщення покажчика.</li>
+<li>Збільшуємо змінну нумерації списку.</li>
+</ul>
+
+</div>
+</div>
+<a id="a5364e47b9c4d4c2212749673de6cb1e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5364e47b9c4d4c2212749673de6cb1e0">&#9670;&nbsp;</a></span>ReadFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FILE * ReadFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>head</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Відкриття файлу.</li>
+<li>Перевірка на існування файлу.</li>
+<li>Виклик функції створення списка.</li>
+</ul>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8cpp_a5364e47b9c4d4c2212749673de6cb1e0_cgraph.png" border="0" usemap="#_source_8cpp_a5364e47b9c4d4c2212749673de6cb1e0_cgraph" alt=""/></div>
+<map name="_source_8cpp_a5364e47b9c4d4c2212749673de6cb1e0_cgraph" id="_source_8cpp_a5364e47b9c4d4c2212749673de6cb1e0_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,92,35"/>
+<area shape="rect" href="_source_8cpp.html#aa90fa003cef36f888f7b3d15f9f30a82" title=" " alt="" coords="140,5,259,35"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad9f843aa66c0363b4e678b8c026141f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9f843aa66c0363b4e678b8c026141f9">&#9670;&nbsp;</a></span>Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Size </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення покажчику на перший елемент.</li>
+<li>Оголошення змінної розміру списку.</li>
+<li>Цикл, який працює до кінця списку.</li>
+<li>Збільшення змінної розміру списку.</li>
+<li>Переміщуємо покажчик на наступний елемент.</li>
+<li>Повертаємо змінну розміру списку.</li>
+</ul>
+
+</div>
+</div>
+<a id="a126bb462fe7f281ceca93eab4e99ecdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a126bb462fe7f281ceca93eab4e99ecdd">&#9670;&nbsp;</a></span>SortScreen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SortScreen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_notebook_el_sp.html">NotebookElSp</a> *&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Оголошення змінної для для перестановки.</p>
+<p>Оголошення змінної на перший елемент.</p>
+<p>Цикл, який робить сортування.</p>
+<p>Якщо перший елемент краще наступного:</p>
+<ul>
+<li>Перестановка, якщо треба переставити перший елемент.</li>
+<li>Перестановка, якщо треба переставити інші елементи.</li>
+</ul>
+<p>Переміщуємо покажчик на наступний елемент.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<div class="ttc" id="a_source_8cpp_html_a0604e2f201c208ed9feaae635ebfea81"><div class="ttname"><a href="_source_8cpp.html#a0604e2f201c208ed9feaae635ebfea81">NewNotebook</a></div><div class="ttdeci">void NewNotebook(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:308</div></div>
+<div class="ttc" id="a_source_8cpp_html_a87b8a86caac6dfefd2783c3bec960c1b"><div class="ttname"><a href="_source_8cpp.html#a87b8a86caac6dfefd2783c3bec960c1b">OutputFileBinary</a></div><div class="ttdeci">void OutputFileBinary(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:382</div></div>
+<div class="ttc" id="a_source_8cpp_html_a5364e47b9c4d4c2212749673de6cb1e0"><div class="ttname"><a href="_source_8cpp.html#a5364e47b9c4d4c2212749673de6cb1e0">ReadFile</a></div><div class="ttdeci">FILE * ReadFile(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:147</div></div>
+<div class="ttc" id="a_source_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="_source_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> Source.cpp:55</div></div>
+<div class="ttc" id="a_source_8cpp_html_aa90fa003cef36f888f7b3d15f9f30a82"><div class="ttname"><a href="_source_8cpp.html#aa90fa003cef36f888f7b3d15f9f30a82">CreateSpisok</a></div><div class="ttdeci">void CreateSpisok(NotebookElSp *, FILE *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:152</div></div>
+<div class="ttc" id="astruct_notebook_el_sp_html_a819165eafce81a6a5729dc3709367cd0"><div class="ttname"><a href="struct_notebook_el_sp.html#a819165eafce81a6a5729dc3709367cd0">NotebookElSp::info</a></div><div class="ttdeci">Notebook info</div><div class="ttdef"><b>Definition:</b> Source.cpp:35</div></div>
+<div class="ttc" id="astruct_notebook_html_ae63245a6e4f7a2c0f0f9ed247977308c"><div class="ttname"><a href="struct_notebook.html#ae63245a6e4f7a2c0f0f9ed247977308c">Notebook::Model</a></div><div class="ttdeci">char Model[10]</div><div class="ttdef"><b>Definition:</b> Source.cpp:27</div></div>
+<div class="ttc" id="astruct_notebook_html_a5674caa2d96d43633328e8d7c7d4d3c1"><div class="ttname"><a href="struct_notebook.html#a5674caa2d96d43633328e8d7c7d4d3c1">Notebook::Bluetooth</a></div><div class="ttdeci">char Bluetooth[3]</div><div class="ttdef"><b>Definition:</b> Source.cpp:28</div></div>
+<div class="ttc" id="a_source_8cpp_html_ad9f843aa66c0363b4e678b8c026141f9"><div class="ttname"><a href="_source_8cpp.html#ad9f843aa66c0363b4e678b8c026141f9">Size</a></div><div class="ttdeci">int Size(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:370</div></div>
+<div class="ttc" id="astruct_notebook_html_a29f1ca777565b35d9cd1bd697b610208"><div class="ttname"><a href="struct_notebook.html#a29f1ca777565b35d9cd1bd697b610208">Notebook::Price</a></div><div class="ttdeci">float Price</div><div class="ttdef"><b>Definition:</b> Source.cpp:30</div></div>
+<div class="ttc" id="a_source_8cpp_html_aa046cd2e01c2609e94fb1f351ce471b2"><div class="ttname"><a href="_source_8cpp.html#aa046cd2e01c2609e94fb1f351ce471b2">Initialization</a></div><div class="ttdeci">NotebookElSp * Initialization()</div><div class="ttdef"><b>Definition:</b> Source.cpp:63</div></div>
+<div class="ttc" id="a_source_8cpp_html_a39969599d67c252f5705801ff3f1df4c"><div class="ttname"><a href="_source_8cpp.html#a39969599d67c252f5705801ff3f1df4c">AverageScreen</a></div><div class="ttdeci">void AverageScreen(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:235</div></div>
+<div class="ttc" id="astruct_notebook_el_sp_html"><div class="ttname"><a href="struct_notebook_el_sp.html">NotebookElSp</a></div><div class="ttdef"><b>Definition:</b> Source.cpp:34</div></div>
+<div class="ttc" id="a_source_8cpp_html_afa23bf9dae9e2bf205eaa7516d194dd6"><div class="ttname"><a href="_source_8cpp.html#afa23bf9dae9e2bf205eaa7516d194dd6">NewStroka</a></div><div class="ttdeci">NotebookElSp * NewStroka(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:361</div></div>
+<div class="ttc" id="astruct_notebook_el_sp_html_a5efba199e2885ca18cac0aec6c854bef"><div class="ttname"><a href="struct_notebook_el_sp.html#a5efba199e2885ca18cac0aec6c854bef">NotebookElSp::next</a></div><div class="ttdeci">NotebookElSp * next</div><div class="ttdef"><b>Definition:</b> Source.cpp:36</div></div>
+<div class="ttc" id="astruct_notebook_html_ac5d134fb56935469b5ba3221402c4461"><div class="ttname"><a href="struct_notebook.html#ac5d134fb56935469b5ba3221402c4461">Notebook::System</a></div><div class="ttdeci">char System[10]</div><div class="ttdef"><b>Definition:</b> Source.cpp:31</div></div>
+<div class="ttc" id="astruct_notebook_html_a3491d91594dfe85217fd53ba2d7bfbd8"><div class="ttname"><a href="struct_notebook.html#a3491d91594dfe85217fd53ba2d7bfbd8">Notebook::Company</a></div><div class="ttdeci">char Company[10]</div><div class="ttdef"><b>Definition:</b> Source.cpp:26</div></div>
+<div class="ttc" id="astruct_notebook_html"><div class="ttname"><a href="struct_notebook.html">Notebook</a></div><div class="ttdef"><b>Definition:</b> Source.cpp:24</div></div>
+<div class="ttc" id="a_source_8cpp_html_a126bb462fe7f281ceca93eab4e99ecdd"><div class="ttname"><a href="_source_8cpp.html#a126bb462fe7f281ceca93eab4e99ecdd">SortScreen</a></div><div class="ttdeci">void SortScreen(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:249</div></div>
+<div class="ttc" id="a_source_8cpp_html_a9dca21d65b410565868e61f43ab0c4ae"><div class="ttname"><a href="_source_8cpp.html#a9dca21d65b410565868e61f43ab0c4ae">InputFileBinary</a></div><div class="ttdeci">void InputFileBinary(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:392</div></div>
+<div class="ttc" id="a_source_8cpp_html_a140ab9e840a8152fe5e0b43052a9c298"><div class="ttname"><a href="_source_8cpp.html#a140ab9e840a8152fe5e0b43052a9c298">OutputScreen</a></div><div class="ttdeci">void OutputScreen(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:164</div></div>
+<div class="ttc" id="a_source_8cpp_html_a46c42e9a2571e794c75acfd2bc85e5ec"><div class="ttname"><a href="_source_8cpp.html#a46c42e9a2571e794c75acfd2bc85e5ec">DeleteNotebook</a></div><div class="ttdeci">int DeleteNotebook(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:177</div></div>
+<div class="ttc" id="astruct_notebook_html_ac0eaac35ab6efef40dcc7d7f3d420adb"><div class="ttname"><a href="struct_notebook.html#ac0eaac35ab6efef40dcc7d7f3d420adb">Notebook::ScrDiagonal</a></div><div class="ttdeci">float ScrDiagonal</div><div class="ttdef"><b>Definition:</b> Source.cpp:25</div></div>
+<div class="ttc" id="a_source_8cpp_html_a81a8b8b63be2092504647a99c8271ceb"><div class="ttname"><a href="_source_8cpp.html#a81a8b8b63be2092504647a99c8271ceb">Menu</a></div><div class="ttdeci">void Menu(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:68</div></div>
+<div class="ttc" id="a_source_8cpp_html_ac800f16c059bccb254bf9f5c20f48874"><div class="ttname"><a href="_source_8cpp.html#ac800f16c059bccb254bf9f5c20f48874">OutputFile</a></div><div class="ttdeci">void OutputFile(NotebookElSp *, FILE *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:295</div></div>
+<div class="ttc" id="a_source_8cpp_html_a2de651c1b5ccb8cfff1c570e9150e368"><div class="ttname"><a href="_source_8cpp.html#a2de651c1b5ccb8cfff1c570e9150e368">FreeSpisok</a></div><div class="ttdeci">void FreeSpisok(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:286</div></div>
+<div class="ttc" id="astruct_notebook_html_a5fb5a89100f9b9f4f190b24e9daf96e5"><div class="ttname"><a href="struct_notebook.html#a5fb5a89100f9b9f4f190b24e9daf96e5">Notebook::Keys</a></div><div class="ttdeci">int Keys</div><div class="ttdef"><b>Definition:</b> Source.cpp:29</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>

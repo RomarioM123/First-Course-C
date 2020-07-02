@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Текст програми my.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.16 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Пошук');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">my.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="my_8h.html">Див. документацію.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="my_8h.html#af08ec37a8c99d747fb60fa15bc28678b">    1</a></span>&#160;<span class="preprocessor">#define _CRT_SECURE_NO_WARNINGS</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="my_8h.html#a4905dd6e51c94ac94ec1c4118a20656a">    2</a></span>&#160;<span class="preprocessor">#define CRTDBG_MAP_ALLOC</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="my_8h.html#ae506a7a05c7311380f9160324fa2c047">    3</a></span>&#160;<span class="preprocessor">#define DEBUG_NEW new(_NORMAL_BLOCK, FILE, __LINE)</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="my_8h.html#a1ac41480eb2e4aadd52252ee550b630a">    4</a></span>&#160;<span class="preprocessor">#define new DEBUG_NEW</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span>      </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;crtdbg.h&gt;</span>      </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span>       </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span>      </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;locale.h&gt;</span>      </div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="struct_notebook.html">   11</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_notebook.html">Notebook</a> {           </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="struct_notebook.html#ac0eaac35ab6efef40dcc7d7f3d420adb">   12</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="struct_notebook.html#ac0eaac35ab6efef40dcc7d7f3d420adb">ScrDiagonal</a>;      </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="struct_notebook.html#a3491d91594dfe85217fd53ba2d7bfbd8">   13</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_notebook.html#a3491d91594dfe85217fd53ba2d7bfbd8">Company</a>[10];       </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="struct_notebook.html#ae63245a6e4f7a2c0f0f9ed247977308c">   14</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_notebook.html#ae63245a6e4f7a2c0f0f9ed247977308c">Model</a>[10];         </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="struct_notebook.html#a5674caa2d96d43633328e8d7c7d4d3c1">   15</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_notebook.html#a5674caa2d96d43633328e8d7c7d4d3c1">Bluetooth</a>[3];      </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="struct_notebook.html#a5fb5a89100f9b9f4f190b24e9daf96e5">   16</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="struct_notebook.html#a5fb5a89100f9b9f4f190b24e9daf96e5">Keys</a>;               </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="struct_notebook.html#a29f1ca777565b35d9cd1bd697b610208">   17</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="struct_notebook.html#a29f1ca777565b35d9cd1bd697b610208">Price</a>;            </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="struct_notebook.html#ac5d134fb56935469b5ba3221402c4461">   18</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_notebook.html#ac5d134fb56935469b5ba3221402c4461">System</a>[10];        </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="struct_notebook_el_sp.html">   20</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a> {</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="struct_notebook_el_sp.html#a819165eafce81a6a5729dc3709367cd0">   21</a></span>&#160;    <a class="code" href="struct_notebook.html">Notebook</a> <a class="code" href="struct_notebook_el_sp.html#a819165eafce81a6a5729dc3709367cd0">info</a>;          </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="struct_notebook_el_sp.html#ae928fbc9a7cae275f8bb37e7025e59a6">   22</a></span>&#160;    <a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>* <a class="code" href="struct_notebook_el_sp.html#a5efba199e2885ca18cac0aec6c854bef">next</a>, * <a class="code" href="struct_notebook_el_sp.html#ae928fbc9a7cae275f8bb37e7025e59a6">prev</a>; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;};</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>* <a class="code" href="my_8h.html#a43a53fa9e0acbc137d664d95d52cad51">Init</a>();       </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;FILE* <a class="code" href="my_8h.html#a67fd963da246b92ee4ae1c2f015ce502">OpenFile</a>();               </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a353c20650ed1fee21eaa8d863d3ece69">InitSpisok</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*, <a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a2e20fa60bb45bf83976379c383dc720b">CreateSpH</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*, FILE*);   </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a27e42db58cd8b38be4b94643ee3f46bd">CreateSpT</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*, FILE*);   </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a815e0d661d61b7062220a45de9d51fc8">OutputScrH</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);         </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a463d9f83283a73ffe1bd903ad7fa2bdd">OutputScrT</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);             </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a2de651c1b5ccb8cfff1c570e9150e368">FreeSpisok</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);         </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>* <a class="code" href="my_8h.html#ad1a9c678aa7c4de08b01bef3c297583a">Choise</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*, <a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*, FILE*);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a4c58d6c786426bc0c23298dbfcbec70e">Menu</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*, <a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);    </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a39969599d67c252f5705801ff3f1df4c">AverageScreen</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);      </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#ac800f16c059bccb254bf9f5c20f48874">OutputFile</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*, FILE*);  </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">int</span> <a class="code" href="my_8h.html#ad9f843aa66c0363b4e678b8c026141f9">Size</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);                </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a87b8a86caac6dfefd2783c3bec960c1b">OutputFileBinary</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);   </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a9dca21d65b410565868e61f43ab0c4ae">InputFileBinary</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a3b33f15aba080a1e1034faa26f66382e">SortScreen</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*, <a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a4d2668906e3ecafd7d7c3c57cc230c59">NewNotebook</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*, <a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a0bfa5f7f4f134a6204e4234878f6757c">DeleteNotebook</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);     </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>* <a class="code" href="my_8h.html#a7cfaf888d4e224c244cc086baaa37d01">NewStroka</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*); </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my_8h.html#a3e1d35795b8a3d3a2a208d476a63db07">Swap</a>(<a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*, <a class="code" href="struct_notebook_el_sp.html">NotebookElSp</a>*);    </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="amy_8h_html_a7cfaf888d4e224c244cc086baaa37d01"><div class="ttname"><a href="my_8h.html#a7cfaf888d4e224c244cc086baaa37d01">NewStroka</a></div><div class="ttdeci">NotebookElSp * NewStroka(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:299</div></div>
+<div class="ttc" id="astruct_notebook_el_sp_html_a819165eafce81a6a5729dc3709367cd0"><div class="ttname"><a href="struct_notebook_el_sp.html#a819165eafce81a6a5729dc3709367cd0">NotebookElSp::info</a></div><div class="ttdeci">Notebook info</div><div class="ttdef"><b>Definition:</b> my.h:21</div></div>
+<div class="ttc" id="amy_8h_html_a4d2668906e3ecafd7d7c3c57cc230c59"><div class="ttname"><a href="my_8h.html#a4d2668906e3ecafd7d7c3c57cc230c59">NewNotebook</a></div><div class="ttdeci">void NewNotebook(NotebookElSp *, NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:248</div></div>
+<div class="ttc" id="amy_8cpp_html_aa3770399cd52cfbc31702dfe5a148645"><div class="ttname"><a href="my_8cpp.html#aa3770399cd52cfbc31702dfe5a148645">SortScreen</a></div><div class="ttdeci">void SortScreen(NotebookElSp *h, NotebookElSp *t)</div><div class="ttdef"><b>Definition:</b> my.cpp:224</div></div>
+<div class="ttc" id="amy_8h_html_a9dca21d65b410565868e61f43ab0c4ae"><div class="ttname"><a href="my_8h.html#a9dca21d65b410565868e61f43ab0c4ae">InputFileBinary</a></div><div class="ttdeci">void InputFileBinary(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:396</div></div>
+<div class="ttc" id="amy_8cpp_html_a1f15c63ae02091738f91a335dadbfa7b"><div class="ttname"><a href="my_8cpp.html#a1f15c63ae02091738f91a335dadbfa7b">Swap</a></div><div class="ttdeci">void Swap(NotebookElSp *h, NotebookElSp *t)</div><div class="ttdef"><b>Definition:</b> my.cpp:309</div></div>
+<div class="ttc" id="amy_8h_html_a353c20650ed1fee21eaa8d863d3ece69"><div class="ttname"><a href="my_8h.html#a353c20650ed1fee21eaa8d863d3ece69">InitSpisok</a></div><div class="ttdeci">void InitSpisok(NotebookElSp *, NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:12</div></div>
+<div class="ttc" id="astruct_notebook_html_ae63245a6e4f7a2c0f0f9ed247977308c"><div class="ttname"><a href="struct_notebook.html#ae63245a6e4f7a2c0f0f9ed247977308c">Notebook::Model</a></div><div class="ttdeci">char Model[10]</div><div class="ttdef"><b>Definition:</b> my.h:14</div></div>
+<div class="ttc" id="astruct_notebook_html_a5674caa2d96d43633328e8d7c7d4d3c1"><div class="ttname"><a href="struct_notebook.html#a5674caa2d96d43633328e8d7c7d4d3c1">Notebook::Bluetooth</a></div><div class="ttdeci">char Bluetooth[3]</div><div class="ttdef"><b>Definition:</b> my.h:15</div></div>
+<div class="ttc" id="amy_8cpp_html_a4adb7e5aa42fb6b55f021f50757654af"><div class="ttname"><a href="my_8cpp.html#a4adb7e5aa42fb6b55f021f50757654af">OutputFile</a></div><div class="ttdeci">void OutputFile(NotebookElSp *h, FILE *text)</div><div class="ttdef"><b>Definition:</b> my.cpp:372</div></div>
+<div class="ttc" id="amy_8h_html_a87b8a86caac6dfefd2783c3bec960c1b"><div class="ttname"><a href="my_8h.html#a87b8a86caac6dfefd2783c3bec960c1b">OutputFileBinary</a></div><div class="ttdeci">void OutputFileBinary(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:385</div></div>
+<div class="ttc" id="astruct_notebook_html_a29f1ca777565b35d9cd1bd697b610208"><div class="ttname"><a href="struct_notebook.html#a29f1ca777565b35d9cd1bd697b610208">Notebook::Price</a></div><div class="ttdeci">float Price</div><div class="ttdef"><b>Definition:</b> my.h:17</div></div>
+<div class="ttc" id="amy_8h_html_a3e1d35795b8a3d3a2a208d476a63db07"><div class="ttname"><a href="my_8h.html#a3e1d35795b8a3d3a2a208d476a63db07">Swap</a></div><div class="ttdeci">void Swap(NotebookElSp *, NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:309</div></div>
+<div class="ttc" id="amy_8cpp_html_a79509fe75ae97fd9eee345529b40ed33"><div class="ttname"><a href="my_8cpp.html#a79509fe75ae97fd9eee345529b40ed33">OutputScrH</a></div><div class="ttdeci">void OutputScrH(NotebookElSp *h)</div><div class="ttdef"><b>Definition:</b> my.cpp:159</div></div>
+<div class="ttc" id="astruct_notebook_el_sp_html"><div class="ttname"><a href="struct_notebook_el_sp.html">NotebookElSp</a></div><div class="ttdef"><b>Definition:</b> my.h:20</div></div>
+<div class="ttc" id="astruct_notebook_el_sp_html_ae928fbc9a7cae275f8bb37e7025e59a6"><div class="ttname"><a href="struct_notebook_el_sp.html#ae928fbc9a7cae275f8bb37e7025e59a6">NotebookElSp::prev</a></div><div class="ttdeci">NotebookElSp * prev</div><div class="ttdef"><b>Definition:</b> my.h:22</div></div>
+<div class="ttc" id="amy_8h_html_a2e20fa60bb45bf83976379c383dc720b"><div class="ttname"><a href="my_8h.html#a2e20fa60bb45bf83976379c383dc720b">CreateSpH</a></div><div class="ttdeci">void CreateSpH(NotebookElSp *, FILE *)</div><div class="ttdef"><b>Definition:</b> my.cpp:36</div></div>
+<div class="ttc" id="astruct_notebook_el_sp_html_a5efba199e2885ca18cac0aec6c854bef"><div class="ttname"><a href="struct_notebook_el_sp.html#a5efba199e2885ca18cac0aec6c854bef">NotebookElSp::next</a></div><div class="ttdeci">NotebookElSp * next</div><div class="ttdef"><b>Definition:</b> my.h:22</div></div>
+<div class="ttc" id="amy_8h_html_a463d9f83283a73ffe1bd903ad7fa2bdd"><div class="ttname"><a href="my_8h.html#a463d9f83283a73ffe1bd903ad7fa2bdd">OutputScrT</a></div><div class="ttdeci">void OutputScrT(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:173</div></div>
+<div class="ttc" id="astruct_notebook_html_ac5d134fb56935469b5ba3221402c4461"><div class="ttname"><a href="struct_notebook.html#ac5d134fb56935469b5ba3221402c4461">Notebook::System</a></div><div class="ttdeci">char System[10]</div><div class="ttdef"><b>Definition:</b> my.h:18</div></div>
+<div class="ttc" id="astruct_notebook_html_a3491d91594dfe85217fd53ba2d7bfbd8"><div class="ttname"><a href="struct_notebook.html#a3491d91594dfe85217fd53ba2d7bfbd8">Notebook::Company</a></div><div class="ttdeci">char Company[10]</div><div class="ttdef"><b>Definition:</b> my.h:13</div></div>
+<div class="ttc" id="amy_8cpp_html_ad75d63e34f2fec16c9a96745b3ac7d7e"><div class="ttname"><a href="my_8cpp.html#ad75d63e34f2fec16c9a96745b3ac7d7e">CreateSpT</a></div><div class="ttdeci">void CreateSpT(NotebookElSp *t, FILE *text)</div><div class="ttdef"><b>Definition:</b> my.cpp:50</div></div>
+<div class="ttc" id="amy_8h_html_a815e0d661d61b7062220a45de9d51fc8"><div class="ttname"><a href="my_8h.html#a815e0d661d61b7062220a45de9d51fc8">OutputScrH</a></div><div class="ttdeci">void OutputScrH(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:159</div></div>
+<div class="ttc" id="astruct_notebook_html"><div class="ttname"><a href="struct_notebook.html">Notebook</a></div><div class="ttdef"><b>Definition:</b> my.h:11</div></div>
+<div class="ttc" id="amy_8h_html_a2de651c1b5ccb8cfff1c570e9150e368"><div class="ttname"><a href="my_8h.html#a2de651c1b5ccb8cfff1c570e9150e368">FreeSpisok</a></div><div class="ttdeci">void FreeSpisok(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:422</div></div>
+<div class="ttc" id="amy_8h_html_a27e42db58cd8b38be4b94643ee3f46bd"><div class="ttname"><a href="my_8h.html#a27e42db58cd8b38be4b94643ee3f46bd">CreateSpT</a></div><div class="ttdeci">void CreateSpT(NotebookElSp *, FILE *)</div><div class="ttdef"><b>Definition:</b> my.cpp:50</div></div>
+<div class="ttc" id="amy_8h_html_ad1a9c678aa7c4de08b01bef3c297583a"><div class="ttname"><a href="my_8h.html#ad1a9c678aa7c4de08b01bef3c297583a">Choise</a></div><div class="ttdeci">NotebookElSp * Choise(NotebookElSp *, NotebookElSp *, FILE *)</div><div class="ttdef"><b>Definition:</b> my.cpp:18</div></div>
+<div class="ttc" id="amy_8cpp_html_a67fd963da246b92ee4ae1c2f015ce502"><div class="ttname"><a href="my_8cpp.html#a67fd963da246b92ee4ae1c2f015ce502">OpenFile</a></div><div class="ttdeci">FILE * OpenFile()</div><div class="ttdef"><b>Definition:</b> my.cpp:7</div></div>
+<div class="ttc" id="amy_8cpp_html_a13a6dd7d8d0ff686e02e02ef8c2045a6"><div class="ttname"><a href="my_8cpp.html#a13a6dd7d8d0ff686e02e02ef8c2045a6">CreateSpH</a></div><div class="ttdeci">void CreateSpH(NotebookElSp *h, FILE *text)</div><div class="ttdef"><b>Definition:</b> my.cpp:36</div></div>
+<div class="ttc" id="amy_8h_html_ad9f843aa66c0363b4e678b8c026141f9"><div class="ttname"><a href="my_8h.html#ad9f843aa66c0363b4e678b8c026141f9">Size</a></div><div class="ttdeci">int Size(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:410</div></div>
+<div class="ttc" id="amy_8cpp_html_ab5b26a838849de0533954f8a552eec25"><div class="ttname"><a href="my_8cpp.html#ab5b26a838849de0533954f8a552eec25">AverageScreen</a></div><div class="ttdeci">void AverageScreen(NotebookElSp *h)</div><div class="ttdef"><b>Definition:</b> my.cpp:210</div></div>
+<div class="ttc" id="amy_8cpp_html_a19ed48b4b74033de5e79f0b26b1eb6df"><div class="ttname"><a href="my_8cpp.html#a19ed48b4b74033de5e79f0b26b1eb6df">NewStroka</a></div><div class="ttdeci">NotebookElSp * NewStroka(NotebookElSp *p)</div><div class="ttdef"><b>Definition:</b> my.cpp:299</div></div>
+<div class="ttc" id="amy_8cpp_html_a43a53fa9e0acbc137d664d95d52cad51"><div class="ttname"><a href="my_8cpp.html#a43a53fa9e0acbc137d664d95d52cad51">Init</a></div><div class="ttdeci">NotebookElSp * Init()</div><div class="ttdef"><b>Definition:</b> my.cpp:3</div></div>
+<div class="ttc" id="astruct_notebook_html_ac0eaac35ab6efef40dcc7d7f3d420adb"><div class="ttname"><a href="struct_notebook.html#ac0eaac35ab6efef40dcc7d7f3d420adb">Notebook::ScrDiagonal</a></div><div class="ttdeci">float ScrDiagonal</div><div class="ttdef"><b>Definition:</b> my.h:12</div></div>
+<div class="ttc" id="amy_8h_html_ac800f16c059bccb254bf9f5c20f48874"><div class="ttname"><a href="my_8h.html#ac800f16c059bccb254bf9f5c20f48874">OutputFile</a></div><div class="ttdeci">void OutputFile(NotebookElSp *, FILE *)</div><div class="ttdef"><b>Definition:</b> my.cpp:372</div></div>
+<div class="ttc" id="amy_8h_html_a43a53fa9e0acbc137d664d95d52cad51"><div class="ttname"><a href="my_8h.html#a43a53fa9e0acbc137d664d95d52cad51">Init</a></div><div class="ttdeci">NotebookElSp * Init()</div><div class="ttdef"><b>Definition:</b> my.cpp:3</div></div>
+<div class="ttc" id="amy_8h_html_a3b33f15aba080a1e1034faa26f66382e"><div class="ttname"><a href="my_8h.html#a3b33f15aba080a1e1034faa26f66382e">SortScreen</a></div><div class="ttdeci">void SortScreen(NotebookElSp *, NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:224</div></div>
+<div class="ttc" id="amy_8cpp_html_a5b9ad77187b3208918ddbf1d98f8a417"><div class="ttname"><a href="my_8cpp.html#a5b9ad77187b3208918ddbf1d98f8a417">OutputScrT</a></div><div class="ttdeci">void OutputScrT(NotebookElSp *t)</div><div class="ttdef"><b>Definition:</b> my.cpp:173</div></div>
+<div class="ttc" id="amy_8h_html_a39969599d67c252f5705801ff3f1df4c"><div class="ttname"><a href="my_8h.html#a39969599d67c252f5705801ff3f1df4c">AverageScreen</a></div><div class="ttdeci">void AverageScreen(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:210</div></div>
+<div class="ttc" id="amy_8cpp_html_a90a6a4fd5bf5b997a36619be10d1693a"><div class="ttname"><a href="my_8cpp.html#a90a6a4fd5bf5b997a36619be10d1693a">InitSpisok</a></div><div class="ttdeci">void InitSpisok(NotebookElSp *h, NotebookElSp *t)</div><div class="ttdef"><b>Definition:</b> my.cpp:12</div></div>
+<div class="ttc" id="amy_8cpp_html_afced234597fc0cb161aa1507dbb3cb48"><div class="ttname"><a href="my_8cpp.html#afced234597fc0cb161aa1507dbb3cb48">Size</a></div><div class="ttdeci">int Size(NotebookElSp *h)</div><div class="ttdef"><b>Definition:</b> my.cpp:410</div></div>
+<div class="ttc" id="amy_8h_html_a4c58d6c786426bc0c23298dbfcbec70e"><div class="ttname"><a href="my_8h.html#a4c58d6c786426bc0c23298dbfcbec70e">Menu</a></div><div class="ttdeci">void Menu(NotebookElSp *, NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:64</div></div>
+<div class="ttc" id="amy_8h_html"><div class="ttname"><a href="my_8h.html">my.h</a></div></div>
+<div class="ttc" id="amy_8cpp_html_ac252891b75f7f26c227181682455b919"><div class="ttname"><a href="my_8cpp.html#ac252891b75f7f26c227181682455b919">DeleteNotebook</a></div><div class="ttdeci">void DeleteNotebook(NotebookElSp *h)</div><div class="ttdef"><b>Definition:</b> my.cpp:187</div></div>
+<div class="ttc" id="amy_8h_html_a67fd963da246b92ee4ae1c2f015ce502"><div class="ttname"><a href="my_8h.html#a67fd963da246b92ee4ae1c2f015ce502">OpenFile</a></div><div class="ttdeci">FILE * OpenFile()</div><div class="ttdef"><b>Definition:</b> my.cpp:7</div></div>
+<div class="ttc" id="amy_8cpp_html_a8987395abc742768efdbacd560fc5aa1"><div class="ttname"><a href="my_8cpp.html#a8987395abc742768efdbacd560fc5aa1">InputFileBinary</a></div><div class="ttdeci">void InputFileBinary(NotebookElSp *h)</div><div class="ttdef"><b>Definition:</b> my.cpp:396</div></div>
+<div class="ttc" id="amy_8cpp_html_ac3274a09764ba08e44dacb265c2e23dc"><div class="ttname"><a href="my_8cpp.html#ac3274a09764ba08e44dacb265c2e23dc">FreeSpisok</a></div><div class="ttdeci">void FreeSpisok(NotebookElSp *h)</div><div class="ttdef"><b>Definition:</b> my.cpp:422</div></div>
+<div class="ttc" id="amy_8cpp_html_aee4ef4957ef9a685b9da3aa02a701960"><div class="ttname"><a href="my_8cpp.html#aee4ef4957ef9a685b9da3aa02a701960">Menu</a></div><div class="ttdeci">void Menu(NotebookElSp *head, NotebookElSp *tail)</div><div class="ttdef"><b>Definition:</b> my.cpp:64</div></div>
+<div class="ttc" id="amy_8cpp_html_ae28df85b88bfe7495a950cd35dfe8035"><div class="ttname"><a href="my_8cpp.html#ae28df85b88bfe7495a950cd35dfe8035">NewNotebook</a></div><div class="ttdeci">void NewNotebook(NotebookElSp *h, NotebookElSp *t)</div><div class="ttdef"><b>Definition:</b> my.cpp:248</div></div>
+<div class="ttc" id="amy_8cpp_html_a4d00814fb9c988869749f39ae71f5a4e"><div class="ttname"><a href="my_8cpp.html#a4d00814fb9c988869749f39ae71f5a4e">OutputFileBinary</a></div><div class="ttdeci">void OutputFileBinary(NotebookElSp *h)</div><div class="ttdef"><b>Definition:</b> my.cpp:385</div></div>
+<div class="ttc" id="astruct_notebook_html_a5fb5a89100f9b9f4f190b24e9daf96e5"><div class="ttname"><a href="struct_notebook.html#a5fb5a89100f9b9f4f190b24e9daf96e5">Notebook::Keys</a></div><div class="ttdeci">int Keys</div><div class="ttdef"><b>Definition:</b> my.h:16</div></div>
+<div class="ttc" id="amy_8cpp_html_a718302b8a122a776b288d68a65b2e8b3"><div class="ttname"><a href="my_8cpp.html#a718302b8a122a776b288d68a65b2e8b3">Choise</a></div><div class="ttdeci">NotebookElSp * Choise(NotebookElSp *h, NotebookElSp *t, FILE *text)</div><div class="ttdef"><b>Definition:</b> my.cpp:18</div></div>
+<div class="ttc" id="amy_8h_html_a0bfa5f7f4f134a6204e4234878f6757c"><div class="ttname"><a href="my_8h.html#a0bfa5f7f4f134a6204e4234878f6757c">DeleteNotebook</a></div><div class="ttdeci">void DeleteNotebook(NotebookElSp *)</div><div class="ttdef"><b>Definition:</b> my.cpp:187</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>

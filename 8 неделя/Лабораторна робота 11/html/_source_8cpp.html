@@ -1,0 +1,460 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Файл Source.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.16 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Пошук');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Макровизначення</a> &#124;
+<a href="#func-members">Функції</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл Source.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;crtdbg.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Діаграма включених заголовочних файлів для Source.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8cpp__incl.png" border="0" usemap="#_source_8cpp" alt=""/></div>
+<map name="_source_8cpp" id="_source_8cpp">
+<area shape="rect" title=" " alt="" coords="139,5,242,35"/>
+<area shape="rect" title=" " alt="" coords="5,83,77,112"/>
+<area shape="rect" title=" " alt="" coords="102,83,181,112"/>
+<area shape="rect" title=" " alt="" coords="205,83,275,112"/>
+<area shape="rect" title=" " alt="" coords="299,83,367,112"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Макровизначення</h2></td></tr>
+<tr class="memitem:af08ec37a8c99d747fb60fa15bc28678b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#af08ec37a8c99d747fb60fa15bc28678b">_CRT_SECURE_NO_WARNINGS</a></td></tr>
+<tr class="separator:af08ec37a8c99d747fb60fa15bc28678b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4905dd6e51c94ac94ec1c4118a20656a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a4905dd6e51c94ac94ec1c4118a20656a">CRTDBG_MAP_ALLOC</a></td></tr>
+<tr class="separator:a4905dd6e51c94ac94ec1c4118a20656a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae506a7a05c7311380f9160324fa2c047"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#ae506a7a05c7311380f9160324fa2c047">DEBUG_NEW</a>&#160;&#160;&#160;<a class="el" href="_source_8cpp.html#a1ac41480eb2e4aadd52252ee550b630a">new</a>(_NORMAL_BLOCK, FILE, __LINE)</td></tr>
+<tr class="separator:ae506a7a05c7311380f9160324fa2c047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac41480eb2e4aadd52252ee550b630a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a1ac41480eb2e4aadd52252ee550b630a">new</a>&#160;&#160;&#160;<a class="el" href="_source_8cpp.html#ae506a7a05c7311380f9160324fa2c047">DEBUG_NEW</a></td></tr>
+<tr class="separator:a1ac41480eb2e4aadd52252ee550b630a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0240ac851181b84ac374872dc5434ee4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a>&#160;&#160;&#160;200				  /**- Оголошення максимального розміру масиву. */</td></tr>
+<tr class="separator:a0240ac851181b84ac374872dc5434ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функції</h2></td></tr>
+<tr class="memitem:ae0ed44748a5f0a346a95c480d61f50aa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#ae0ed44748a5f0a346a95c480d61f50aa">ReadFile</a> (char[], char[])</td></tr>
+<tr class="separator:ae0ed44748a5f0a346a95c480d61f50aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a251678d19dc8cc784adae048610a5cb3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a251678d19dc8cc784adae048610a5cb3">Size</a> (char *)</td></tr>
+<tr class="separator:a251678d19dc8cc784adae048610a5cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ad50669c208e3da705db61d4742a483"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#a6ad50669c208e3da705db61d4742a483">Comparison</a> (char *, char *, int, int)</td></tr>
+<tr class="separator:a6ad50669c208e3da705db61d4742a483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb16cebe8df80033aa4602cd279810bf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#acb16cebe8df80033aa4602cd279810bf">Percent</a> (int, int, int)</td></tr>
+<tr class="separator:acb16cebe8df80033aa4602cd279810bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb81ef8108d1d841098e3e3decaaa436"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#afb81ef8108d1d841098e3e3decaaa436">OutputFile</a> (char[], char *, float, int, int, int)</td></tr>
+<tr class="separator:afb81ef8108d1d841098e3e3decaaa436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Опис макровизначень</h2>
+<a id="af08ec37a8c99d747fb60fa15bc28678b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08ec37a8c99d747fb60fa15bc28678b">&#9670;&nbsp;</a></span>_CRT_SECURE_NO_WARNINGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _CRT_SECURE_NO_WARNINGS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4905dd6e51c94ac94ec1c4118a20656a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4905dd6e51c94ac94ec1c4118a20656a">&#9670;&nbsp;</a></span>CRTDBG_MAP_ALLOC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CRTDBG_MAP_ALLOC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae506a7a05c7311380f9160324fa2c047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae506a7a05c7311380f9160324fa2c047">&#9670;&nbsp;</a></span>DEBUG_NEW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEBUG_NEW&#160;&#160;&#160;<a class="el" href="_source_8cpp.html#a1ac41480eb2e4aadd52252ee550b630a">new</a>(_NORMAL_BLOCK, FILE, __LINE)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0240ac851181b84ac374872dc5434ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0240ac851181b84ac374872dc5434ee4">&#9670;&nbsp;</a></span>N</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define N&#160;&#160;&#160;200				  /**- Оголошення максимального розміру масиву. */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Підключення бібліотеки &lt;stdlib.h&gt;.- Підключення бібліотеки &lt;stdio.h&gt;. </li>
+</ul>
+
+</div>
+</div>
+<a id="a1ac41480eb2e4aadd52252ee550b630a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac41480eb2e4aadd52252ee550b630a">&#9670;&nbsp;</a></span>new</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define new&#160;&#160;&#160;<a class="el" href="_source_8cpp.html#ae506a7a05c7311380f9160324fa2c047">DEBUG_NEW</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Опис функцій</h2>
+<a id="a6ad50669c208e3da705db61d4742a483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ad50669c208e3da705db61d4742a483">&#9670;&nbsp;</a></span>Comparison()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Comparison </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>text1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>text2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Змінна, необхідна для роботи функції.</li>
+<li>Цикл, який знаходить елемент першого тексту.</li>
+<li>Цикл, який знаходить елемент другого тексту.</li>
+<li>Оператор, який перевіряє збіг елементів текстів.</li>
+<li>Збільшення змінної збігів елементів на 1.</li>
+<li>Заміна символу у тексті 2 для уникнення повторних збігів.</li>
+<li>Закінчення порівняння з елементом тексту 1.</li>
+<li>Повернення змінної збігів елементів.</li>
+</ul>
+
+</div>
+</div>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення масивів для текстів.</li>
+<li>Оголошення покажчика для текста 1.</li>
+<li>Оголошення покажчика для текста 2.</li>
+<li>Виклик функції читання з файлу.</li>
+<li>Перевірка існування файлів з текстами.</li>
+<li>Виклик функції знаходження розміру першого тексту.</li>
+<li>Виклик функції знаходження розміру другого тексту.</li>
+<li>Виділяємо пам'ять для копії масива 2.</li>
+<li>Цикл, який знаходить символ, який треба записати.</li>
+<li>Записуємо символ масива 2 у копію.</li>
+<li>Записуэмо у кінець масива символ кінця.</li>
+<li>Виклик функції порівняння текстів.</li>
+<li>Виведення кількості символів які збіглися консоль.</li>
+<li>Виклик функції знаходження відсотка збігів.</li>
+<li>Виведення кількості символів у консоль.</li>
+<li>Виведення відсотка збігів у консоль.</li>
+<li>Виклик функції запису результатів у файли.</li>
+<li>Перевірка витоків пам'яті.</li>
+<li>Ввиденення у консоль тексту про відсутність витоків.</li>
+<li>Ввиденення у консоль тексту про наявність витоків.</li>
+</ul>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#_source_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
+<map name="_source_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="_source_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,111,61,140"/>
+<area shape="rect" href="_source_8cpp.html#a6ad50669c208e3da705db61d4742a483" title=" " alt="" coords="109,5,217,35"/>
+<area shape="rect" href="_source_8cpp.html#afb81ef8108d1d841098e3e3decaaa436" title=" " alt="" coords="117,59,210,88"/>
+<area shape="rect" href="_source_8cpp.html#acb16cebe8df80033aa4602cd279810bf" title=" " alt="" coords="265,85,341,115"/>
+<area shape="rect" href="_source_8cpp.html#ae0ed44748a5f0a346a95c480d61f50aa" title=" " alt="" coords="120,163,207,192"/>
+<area shape="rect" href="_source_8cpp.html#a251678d19dc8cc784adae048610a5cb3" title=" " alt="" coords="137,216,190,245"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afb81ef8108d1d841098e3e3decaaa436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb81ef8108d1d841098e3e3decaaa436">&#9670;&nbsp;</a></span>OutputFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutputFile </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>arr1</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>arr2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Percent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>matches</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Відкриття текстового файлу результатів.</li>
+<li>Запис у результатів роботи у текстовий файл.</li>
+<li>Закриття текстового файлу результатів.</li>
+<li>Відкриття 1 бінарного файлу.</li>
+<li>Запис текста 1 у бінарний файл.</li>
+<li>Закриття 1 бінарного файлу.</li>
+<li>Відкриття 2 бінарного файлу.</li>
+<li>Запис текста 2 у бінарний файл.</li>
+<li>Закриття 2 бінарного файлу.</li>
+</ul>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8cpp_afb81ef8108d1d841098e3e3decaaa436_cgraph.png" border="0" usemap="#_source_8cpp_afb81ef8108d1d841098e3e3decaaa436_cgraph" alt=""/></div>
+<map name="_source_8cpp_afb81ef8108d1d841098e3e3decaaa436_cgraph" id="_source_8cpp_afb81ef8108d1d841098e3e3decaaa436_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,99,35"/>
+<area shape="rect" href="_source_8cpp.html#acb16cebe8df80033aa4602cd279810bf" title=" " alt="" coords="147,5,223,35"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="acb16cebe8df80033aa4602cd279810bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb16cebe8df80033aa4602cd279810bf">&#9670;&nbsp;</a></span>Percent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Percent </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>MatchedNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Оголошення змінної відсотка збігів символів та її знаходження.</li>
+<li>Повернення змінної.</li>
+</ul>
+
+</div>
+</div>
+<a id="ae0ed44748a5f0a346a95c480d61f50aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0ed44748a5f0a346a95c480d61f50aa">&#9670;&nbsp;</a></span>ReadFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ReadFile </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>arr1</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>arr2</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Відкриття першого файлу.</li>
+<li>Перевірка на існування файлу з текстом.</li>
+<li>Запис з першого файлу у масив 1.</li>
+<li>Закриття першого файлу.</li>
+<li>Відкриття другого файлу.</li>
+<li>Перевірка на існування файлу з текстом.</li>
+<li>Запис з другого файлу у масив 2.</li>
+<li>Закриття другого файлу.</li>
+<li>Виведення першого тексту у консоль.</li>
+<li>Виведення другого тексту у консоль.</li>
+</ul>
+
+</div>
+</div>
+<a id="a251678d19dc8cc784adae048610a5cb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a251678d19dc8cc784adae048610a5cb3">&#9670;&nbsp;</a></span>Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Size </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<ul>
+<li>Змінні, необхідна для знаходження розміру масиву.</li>
+<li>Збільшення змінної розміру тексту на 1.</li>
+<li>Збільшення змінної елементів тексту на 1.</li>
+<li>Цикл, який визначає розмір масиву.</li>
+<li>Повернення результату роботи функції.</li>
+</ul>
+
+</div>
+</div>
+</div><!-- contents -->
+<div class="ttc" id="a_source_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="_source_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> Source.cpp:29</div></div>
+<div class="ttc" id="a_source_8cpp_html_ae0ed44748a5f0a346a95c480d61f50aa"><div class="ttname"><a href="_source_8cpp.html#ae0ed44748a5f0a346a95c480d61f50aa">ReadFile</a></div><div class="ttdeci">bool ReadFile(char[], char[])</div><div class="ttdef"><b>Definition:</b> Source.cpp:68</div></div>
+<div class="ttc" id="a_source_8cpp_html_a251678d19dc8cc784adae048610a5cb3"><div class="ttname"><a href="_source_8cpp.html#a251678d19dc8cc784adae048610a5cb3">Size</a></div><div class="ttdeci">int Size(char *)</div><div class="ttdef"><b>Definition:</b> Source.cpp:91</div></div>
+<div class="ttc" id="a_source_8cpp_html_afb81ef8108d1d841098e3e3decaaa436"><div class="ttname"><a href="_source_8cpp.html#afb81ef8108d1d841098e3e3decaaa436">OutputFile</a></div><div class="ttdeci">void OutputFile(char[], char *, float, int, int, int)</div><div class="ttdef"><b>Definition:</b> Source.cpp:125</div></div>
+<div class="ttc" id="a_source_8cpp_html_a0240ac851181b84ac374872dc5434ee4"><div class="ttname"><a href="_source_8cpp.html#a0240ac851181b84ac374872dc5434ee4">N</a></div><div class="ttdeci">#define N</div><div class="ttdef"><b>Definition:</b> Source.cpp:21</div></div>
+<div class="ttc" id="a_source_8cpp_html_a6ad50669c208e3da705db61d4742a483"><div class="ttname"><a href="_source_8cpp.html#a6ad50669c208e3da705db61d4742a483">Comparison</a></div><div class="ttdeci">int Comparison(char *, char *, int, int)</div><div class="ttdef"><b>Definition:</b> Source.cpp:103</div></div>
+<div class="ttc" id="a_source_8cpp_html_acb16cebe8df80033aa4602cd279810bf"><div class="ttname"><a href="_source_8cpp.html#acb16cebe8df80033aa4602cd279810bf">Percent</a></div><div class="ttdeci">float Percent(int, int, int)</div><div class="ttdef"><b>Definition:</b> Source.cpp:119</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Файл Source.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Створено системою Doxygen 1.8.16 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Пошук');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Макровизначення</a> &#124;
+<a href="#func-members">Функції</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл Source.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;crtdbg.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;malloc.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Діаграма включених заголовочних файлів для Source.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8c__incl.png" border="0" usemap="#_source_8c" alt=""/></div>
+<map name="_source_8c" id="_source_8c">
+<area shape="rect" title=" " alt="" coords="101,5,185,35"/>
+<area shape="rect" title=" " alt="" coords="5,83,84,112"/>
+<area shape="rect" title=" " alt="" coords="108,83,179,112"/>
+<area shape="rect" title=" " alt="" coords="203,83,281,112"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Макровизначення</h2></td></tr>
+<tr class="memitem:a4905dd6e51c94ac94ec1c4118a20656a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8c.html#a4905dd6e51c94ac94ec1c4118a20656a">CRTDBG_MAP_ALLOC</a></td></tr>
+<tr class="memdesc:a4905dd6e51c94ac94ec1c4118a20656a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Оголошення функції відстеження витоку пам'яті.  <a href="_source_8c.html#a4905dd6e51c94ac94ec1c4118a20656a">Детальніше...</a><br /></td></tr>
+<tr class="separator:a4905dd6e51c94ac94ec1c4118a20656a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae506a7a05c7311380f9160324fa2c047"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8c.html#ae506a7a05c7311380f9160324fa2c047">DEBUG_NEW</a>&#160;&#160;&#160;<a class="el" href="_source_8c.html#a1ac41480eb2e4aadd52252ee550b630a">new</a>(_NORMAL_BLOCK, __FILE, LINE)</td></tr>
+<tr class="separator:ae506a7a05c7311380f9160324fa2c047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac41480eb2e4aadd52252ee550b630a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8c.html#a1ac41480eb2e4aadd52252ee550b630a">new</a>&#160;&#160;&#160;<a class="el" href="_source_8c.html#ae506a7a05c7311380f9160324fa2c047">DEBUG_NEW</a></td></tr>
+<tr class="memdesc:a1ac41480eb2e4aadd52252ee550b630a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Підключення бібліотеки "stdlib.h".  <a href="_source_8c.html#a1ac41480eb2e4aadd52252ee550b630a">Детальніше...</a><br /></td></tr>
+<tr class="separator:a1ac41480eb2e4aadd52252ee550b630a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0240ac851181b84ac374872dc5434ee4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a>&#160;&#160;&#160;6</td></tr>
+<tr class="memdesc:a0240ac851181b84ac374872dc5434ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Оголошення розміру масиву.  <a href="_source_8c.html#a0240ac851181b84ac374872dc5434ee4">Детальніше...</a><br /></td></tr>
+<tr class="separator:a0240ac851181b84ac374872dc5434ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функції</h2></td></tr>
+<tr class="memitem:a13c4dc2977ec740969637fbe65d1e3c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8c.html#a13c4dc2977ec740969637fbe65d1e3c8">Form</a> (float *)</td></tr>
+<tr class="memdesc:a13c4dc2977ec740969637fbe65d1e3c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Оголошення функції формування масиву.  <a href="_source_8c.html#a13c4dc2977ec740969637fbe65d1e3c8">Детальніше...</a><br /></td></tr>
+<tr class="separator:a13c4dc2977ec740969637fbe65d1e3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e3f48bde6e609026ed151b8ffd67a47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8c.html#a3e3f48bde6e609026ed151b8ffd67a47">Transposition</a> (float *, int)</td></tr>
+<tr class="memdesc:a3e3f48bde6e609026ed151b8ffd67a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Оголошення функції перестановки масиву.  <a href="_source_8c.html#a3e3f48bde6e609026ed151b8ffd67a47">Детальніше...</a><br /></td></tr>
+<tr class="separator:a3e3f48bde6e609026ed151b8ffd67a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_source_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Головна функція.  <a href="_source_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">Детальніше...</a><br /></td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Опис макровизначень</h2>
+<a id="a4905dd6e51c94ac94ec1c4118a20656a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4905dd6e51c94ac94ec1c4118a20656a">&#9670;&nbsp;</a></span>CRTDBG_MAP_ALLOC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CRTDBG_MAP_ALLOC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Оголошення функції відстеження витоку пам'яті. </p>
+
+</div>
+</div>
+<a id="ae506a7a05c7311380f9160324fa2c047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae506a7a05c7311380f9160324fa2c047">&#9670;&nbsp;</a></span>DEBUG_NEW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEBUG_NEW&#160;&#160;&#160;<a class="el" href="_source_8c.html#a1ac41480eb2e4aadd52252ee550b630a">new</a>(_NORMAL_BLOCK, __FILE, LINE)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0240ac851181b84ac374872dc5434ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0240ac851181b84ac374872dc5434ee4">&#9670;&nbsp;</a></span>N</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define N&#160;&#160;&#160;6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Оголошення розміру масиву. </p>
+
+</div>
+</div>
+<a id="a1ac41480eb2e4aadd52252ee550b630a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac41480eb2e4aadd52252ee550b630a">&#9670;&nbsp;</a></span>new</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define new&#160;&#160;&#160;<a class="el" href="_source_8c.html#ae506a7a05c7311380f9160324fa2c047">DEBUG_NEW</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Підключення бібліотеки "stdlib.h". </p>
+<p>Підключення бібліотеки "malloc.h". </p>
+
+</div>
+</div>
+<h2 class="groupheader">Опис функцій</h2>
+<a id="a13c4dc2977ec740969637fbe65d1e3c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13c4dc2977ec740969637fbe65d1e3c8">&#9670;&nbsp;</a></span>Form()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Form </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>pm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Оголошення функції формування масиву. </p>
+<p>&lt; Цикл, який визначає елемент, який треба заповнити.</p>
+<p>&lt; Заповнюємо елемент речовинним числом.</p>
+
+</div>
+</div>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Головна функція. </p>
+<p>Послідовність дій: </p><ul>
+<li>
+Створення змінних  </li>
+<li>
+Виклик функції генерації масиву  </li>
+<li>
+Виклик функції перестановки елементів масиву  </li>
+</ul>
+<p>&lt; Оголошення динамічного масиву.</p>
+<p>&lt; Виділяємо пам'ять для динамічного масиву.</p>
+<p>&lt; Виклик функції генерації масиву.</p>
+<p>&lt; Виклик функції перестановки масиву.</p>
+<p>&lt; Звільнення пам'яті.</p>
+<p>&lt; Перевіряємо витоки пам'яті.</p>
+<div class="dynheader">
+Граф всіх викликів цієї функції:</div>
+<div class="dyncontent">
+<div class="center"><img src="_source_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#_source_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
+<map name="_source_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="_source_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
+<area shape="rect" title="Головна функція." alt="" coords="5,32,61,61"/>
+<area shape="rect" href="_source_8c.html#a13c4dc2977ec740969637fbe65d1e3c8" title="Оголошення функції формування масиву." alt="" coords="138,5,197,35"/>
+<area shape="rect" href="_source_8c.html#a3e3f48bde6e609026ed151b8ffd67a47" title="Оголошення функції перестановки масиву." alt="" coords="109,59,225,88"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3e3f48bde6e609026ed151b8ffd67a47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e3f48bde6e609026ed151b8ffd67a47">&#9670;&nbsp;</a></span>Transposition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Transposition </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>pm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Оголошення функції перестановки масиву. </p>
+<p>&lt; Змінна, необхідна для перестановки масиву.</p>
+<p>&lt; Цикл, який визначає елементи, які треба переставити.</p>
+<p>&lt; Визначаємо чи потрібно переставляти єлементи.</p>
+<p>&lt; Міняємо елементи місцями.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<div class="ttc" id="a_source_8c_html_a3e3f48bde6e609026ed151b8ffd67a47"><div class="ttname"><a href="_source_8c.html#a3e3f48bde6e609026ed151b8ffd67a47">Transposition</a></div><div class="ttdeci">void Transposition(float *, int)</div><div class="ttdoc">Оголошення функції перестановки масиву.</div><div class="ttdef"><b>Definition:</b> Source.c:61</div></div>
+<div class="ttc" id="a_source_8c_html_a13c4dc2977ec740969637fbe65d1e3c8"><div class="ttname"><a href="_source_8c.html#a13c4dc2977ec740969637fbe65d1e3c8">Form</a></div><div class="ttdeci">void Form(float *)</div><div class="ttdoc">Оголошення функції формування масиву.</div><div class="ttdef"><b>Definition:</b> Source.c:55</div></div>
+<div class="ttc" id="a_source_8c_html_a0240ac851181b84ac374872dc5434ee4"><div class="ttname"><a href="_source_8c.html#a0240ac851181b84ac374872dc5434ee4">N</a></div><div class="ttdeci">#define N</div><div class="ttdoc">Оголошення розміру масиву.</div><div class="ttdef"><b>Definition:</b> Source.c:20</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Створено системою &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>

@@ -1,0 +1,2 @@
+I  am    learning    C. I don't know how to use    fprinf
+

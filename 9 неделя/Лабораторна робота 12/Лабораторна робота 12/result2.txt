@@ -1,0 +1,4 @@
+17.0 Lenovo RJATY No34 54.00 Windows
+23.4 Asus IMOFU55 Yes120 131.00 Linux
+31.2 Apple CLQURok Yes98 148.00 MacOS
+32.1 Acer LQECD2 Yes99 154.00 Windows

@@ -1,0 +1,3 @@
+Doll 2000
+Chocolate 50
+Car 1000000

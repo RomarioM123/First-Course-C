@@ -1,0 +1,1 @@
+Quantum computing is the study of a non-classical model of computation.
